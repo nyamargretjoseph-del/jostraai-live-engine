@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JostraAI Pro</title>
+  <style>
+    body {
+      background: #0b0f1a;
+      color: white;
+      font-family: Arial;
+      text-align: center;
+    }
+    .box {
+      background: #111827;
+      margin: 10px auto;
+      padding: 15px;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 10px;
+    }
+    button {
+      padding: 10px;
+      margin: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>JOSTRAAI PRO</h1>
+
+<div class="box">
+  <h2>Signal</h2>
+  <p id="signal">WAIT...</p>
+  <p id="score">Score: --</p>
+</div>
+
+<div class="box">
+  <h2>Analysis</h2>
+  <p id="ou"></p>
+  <p id="eo"></p>
+  <p id="match"></p>
+</div>
+
+<div class="box">
+  <button onclick="start()">START</button>
+  <button onclick="stop()">STOP</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
